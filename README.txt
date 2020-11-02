@@ -40,7 +40,9 @@ update_selection() :
 	if you edit the data within them and it breaks just run the update_selection()
 	function again and they will be rebuilt. Theese files will be created where you
 	changed the directory to upon set up. update_selection() takes one argument ,
-	the path leading to the video container.
+	the path leading to the video container. With the path end it with a slash so 
+	when the path and file name combines its actually exsists for example :
+	C:/path/path/videos/
 
 random_shuffle() :
 	This function randomly shuffles all the videos specified within the 'data_meme_list'
