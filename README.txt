@@ -23,6 +23,11 @@ Then run the update_selection() command to add videos to the files , have a
 seperate folder with only .mp4 videos init otherwise the function will return 
 an error.
 
+To add video files add them to files containing the rest of the videos and then run 
+the updata_selection() function this will rebuild the data base with the new files 
+properly integrated. This works the same if you want to remove a video , just take 
+it out and run the update_selection() function and it will rebuild the data base.
+
 Functions :
 
 update_selection() :
